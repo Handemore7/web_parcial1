@@ -1,20 +1,26 @@
 body {
-    background-color: red;
     height: 100%;
     width: 100%;
 }
 
 .content {
-
-    background-color: lightblue;
-    width: 20%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
     padding: 20px;
+    align-items: center;
 
     &__showed {
+        background-color: lightsalmon;
+        padding: 10px;
         text-align: center;
     }
 
     &__inserted {
         margin-right: auto;
+        height: 25px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(209, 231, 238);
     }
 }
