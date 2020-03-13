@@ -1,4 +1,20 @@
 body {
   background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  background-color: lightblue;
+  width: 20%;
+  padding: 20px;
+}
+
+.content__showed {
+  text-align: center;
+}
+
+.content__inserted {
+  margin-right: auto;
 }
 /*# sourceMappingURL=main.css.map */
